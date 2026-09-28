@@ -16,11 +16,7 @@ venv/
 
 # ── Jupyter ────────────────────────────────────────────────────────────────────
 .ipynb_checkpoints/
-*/.ipynb_checkpoints/
-
-# ── Dataset source files (xlsx, zip archives only — csv is committed) ─────────
-data/raw/*.xlsx
-data/raw/*.zip
+**/.ipynb_checkpoints/
 
 # ── Generated results (re-created by running the notebook) ────────────────────
 results/tables/*.csv
