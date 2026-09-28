@@ -1,0 +1,29 @@
+           Model                                   Comparison  \
+0          Ridge                 A_Core_10 → B_Informative_20   
+1  Random Forest                 A_Core_10 → B_Informative_20   
+2          Ridge  C_All_Original → D_Original_Plus_Irrelevant   
+3  Random Forest  C_All_Original → D_Original_Plus_Irrelevant   
+4          Ridge   C_All_Original → E_Original_Plus_Redundant   
+5  Random Forest   C_All_Original → E_Original_Plus_Redundant   
+6          Ridge        C_All_Original → F_Original_Plus_Both   
+7  Random Forest        C_All_Original → F_Original_Plus_Both   
+
+                    Feature Change  Δ Test RMSE  Δ Test MAE  Δ Test R²  \
+0  Additional informative features   -2,927.559  -2,501.511      0.028   
+1  Additional informative features   -3,899.932  -1,915.289      0.029   
+2   Additional irrelevant features      -78.474     -34.751      0.001   
+3   Additional irrelevant features      849.033     427.656     -0.006   
+4    Additional redundant features       14.757      14.687     -0.000   
+5    Additional redundant features      181.234      57.880     -0.001   
+6  Irrelevant + redundant features      -73.676     -33.140      0.001   
+7  Irrelevant + redundant features      920.254     573.900     -0.006   
+
+   Δ Generalization Gap  
+0            -1,106.086  
+1            -3,145.939  
+2               -32.793  
+3               638.369  
+4                11.004  
+5               108.781  
+6               -28.335  
+7               571.673  

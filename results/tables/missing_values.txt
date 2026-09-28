@@ -1,0 +1,21 @@
+                MissingValues
+Pool QC                  2917
+Misc Feature             2824
+Alley                    2732
+Fence                    2358
+Mas Vnr Type             1775
+Fireplace Qu             1422
+Lot Frontage              490
+Garage Cond               159
+Garage Qual               159
+Garage Finish             159
+Garage Yr Blt             159
+Garage Type               157
+Bsmt Exposure              83
+BsmtFin Type 2             81
+Bsmt Cond                  80
+Bsmt Qual                  80
+BsmtFin Type 1             80
+Mas Vnr Area               23
+Bsmt Half Bath              2
+Bsmt Full Bath              2

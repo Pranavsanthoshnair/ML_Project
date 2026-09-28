@@ -1,0 +1,6 @@
+  Original Feature      Redundant Feature  Pearson Correlation
+0      Gr Liv Area    Redundant_GrLivArea                1.000
+1     Overall Qual  Redundant_OverallQual                0.990
+2      Garage Area   Redundant_GarageArea                1.000
+3    Total Bsmt SF  Redundant_TotalBsmtSF                1.000
+4       Year Built    Redundant_YearBuilt                0.998
