@@ -1,6 +1,5 @@
 # House Price Prediction Using Machine Learning
 ## Feature Selection Investigation — Team 04
-
 | Name |
 |------|
 | Pranav S Nair |
