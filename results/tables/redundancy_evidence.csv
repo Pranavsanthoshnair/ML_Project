@@ -1,0 +1,6 @@
+Original_Feature,Redundant_Feature,Pearson_Correlation
+Gr Liv Area,Redundant_GrLivArea,1.000
+Overall Qual,Redundant_OverallQual,0.990
+Garage Area,Redundant_GarageArea,1.000
+Total Bsmt SF,Redundant_TotalBsmtSF,1.000
+Year Built,Redundant_YearBuilt,0.998

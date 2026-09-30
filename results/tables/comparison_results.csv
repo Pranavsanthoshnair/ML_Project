@@ -1,0 +1,9 @@
+Model,Comparison,Feature_Change,Delta_Test_RMSE,Delta_Test_MAE,Delta_Test_R2,Delta_Gen_Gap
+Ridge,A_Core_10 → B_Informative_20,Additional informative features,-2927.559,-2501.511,0.028,-1106.086
+Random Forest,A_Core_10 → B_Informative_20,Additional informative features,-3899.932,-1915.289,0.029,-3145.939
+Ridge,C_All_Original → D_Original_Plus_Irrelevant,Additional irrelevant features,-78.474,-34.751,0.001,-32.793
+Random Forest,C_All_Original → D_Original_Plus_Irrelevant,Additional irrelevant features,849.033,427.656,-0.006,638.369
+Ridge,C_All_Original → E_Original_Plus_Redundant,Additional redundant features,14.757,14.687,-0.000,11.004
+Random Forest,C_All_Original → E_Original_Plus_Redundant,Additional redundant features,181.234,57.880,-0.001,108.781
+Ridge,C_All_Original → F_Original_Plus_Both,Irrelevant + redundant features,-73.676,-33.140,0.001,-28.335
+Random Forest,C_All_Original → F_Original_Plus_Both,Irrelevant + redundant features,920.254,573.900,-0.006,571.673

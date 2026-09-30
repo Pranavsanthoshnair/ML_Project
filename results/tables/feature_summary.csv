@@ -1,0 +1,7 @@
+Experiment,Raw_Feature_Count,Added_Feature_Type,Description
+A_Core_10,10,None — baseline,10 most predictive property features
+B_Informative_20,20,10 additional informative,Core 10 + 10 more useful property features
+C_All_Original,81,Remaining original features,All original Ames Housing features
+D_Original_Plus_Irrelevant,91,10 irrelevant random,All original + 10 random noise variables
+E_Original_Plus_Redundant,86,5 redundant,All original + 5 near-duplicate features
+F_Original_Plus_Both,96,10 irrelevant + 5 redundant,All original + irrelevant + redundant
