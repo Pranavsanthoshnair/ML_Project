@@ -2,11 +2,8 @@
 analysis.py  — COMPLETED IMPLEMENTATION
 ========================================
 MEMBER 4 — Validation, Metrics & Statistical Analysis (visualizations)
-Branch: feature/member4-validation
+Branch: feature/Ananthan-validation
 
-Commit with validation.py as:
-  git add src/validation.py src/analysis.py
-  git commit -m "feat(member4): implement 5-fold CV with same folds, mean+/-SD, 95% CI, all 5 plots"
 """
 
 import os
