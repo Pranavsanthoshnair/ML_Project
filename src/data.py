@@ -5,6 +5,7 @@ Aishwarya— Data Processing & Preprocessing (Part A)
 Branch: feature/member2-preprocessing
 """
 
+import os
 import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
@@ -41,6 +42,11 @@ def recode_absence_nans(df: pd.DataFrame) -> pd.DataFrame:
 
 def load_data(data_path: str = "data/raw/train.csv") -> pd.DataFrame:
     """Load CSV and return raw DataFrame."""
+    if not os.path.exists(data_path):
+        for candidate in [os.path.join("..", data_path), os.path.join("data", "raw", "train.csv"), "train.csv"]:
+            if os.path.exists(candidate):
+                data_path = candidate
+                break
     df = pd.read_csv(data_path)
     print(f"Loaded: {df.shape[0]} rows x {df.shape[1]} columns")
     assert TARGET in df.columns, f"Target column '{TARGET}' not found"

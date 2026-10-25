@@ -33,7 +33,7 @@ def run_all_experiments(X_experiment, X_train, X_test,
             metrics  = evaluate_on_split(pipeline, X_train_exp, X_test_exp,
                                          y_train, y_test)
 
-            fitted_prep = pipeline.named_steps["preprocessor"]
+            fitted_prep = pipeline.named_steps["preprocessing"]
             try:
                 transformed_count = len(fitted_prep.get_feature_names_out())
             except AttributeError:

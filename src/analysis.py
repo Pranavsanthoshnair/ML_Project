@@ -1,7 +1,7 @@
 """
 analysis.py  — COMPLETED IMPLEMENTATION
 ========================================
-MEMBER 4 — Validation, Metrics & Statistical Analysis (visualizations)
+Ananthan — Validation, Metrics & Statistical Analysis (visualizations)
 Branch: feature/Ananthan-validation
 
 """
@@ -51,7 +51,7 @@ def plot_rmse_by_config(results_df: pd.DataFrame, save: bool = True):
     if save:
         p = os.path.join(FIGURES_DIR, "plot1_rmse_by_config.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def plot_generalization(results_df: pd.DataFrame, cv_df: pd.DataFrame, save: bool = True):
@@ -78,7 +78,7 @@ def plot_generalization(results_df: pd.DataFrame, cv_df: pd.DataFrame, save: boo
     if save:
         p = os.path.join(FIGURES_DIR, "plot2_generalization.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def plot_cv_distribution(cv_df: pd.DataFrame, save: bool = True):
@@ -102,7 +102,7 @@ def plot_cv_distribution(cv_df: pd.DataFrame, save: bool = True):
     if save:
         p = os.path.join(FIGURES_DIR, "plot3_cv_distribution.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def plot_delta_rmse(delta_df: pd.DataFrame, save: bool = True):
@@ -131,7 +131,7 @@ def plot_delta_rmse(delta_df: pd.DataFrame, save: bool = True):
     if save:
         p = os.path.join(FIGURES_DIR, "plot4_delta_rmse.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def plot_feature_count_vs_rmse(results_df: pd.DataFrame, save: bool = True):
@@ -151,7 +151,7 @@ def plot_feature_count_vs_rmse(results_df: pd.DataFrame, save: bool = True):
     if save:
         p = os.path.join(FIGURES_DIR, "plot5_feature_count_vs_rmse.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def plot_redundancy_heatmap(X_experiment: pd.DataFrame, redundant_specs: dict, save: bool = True):
@@ -169,7 +169,7 @@ def plot_redundancy_heatmap(X_experiment: pd.DataFrame, redundant_specs: dict, s
     if save:
         p = os.path.join(FIGURES_DIR, "plot_redundancy_heatmap.png")
         fig.savefig(p, dpi=150); print(f"Saved: {p}")
-    plt.show(); return fig
+    plt.show()
 
 
 def build_evidence_table(results_df, cv_df, delta_df, cv_delta_df) -> pd.DataFrame:
